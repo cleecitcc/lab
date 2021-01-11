@@ -1,0 +1,5 @@
+- name: Run the Job on Host
+  hosts: '{{ hostz }}'
+  tasks:
+    - name: Ping
+      action: ping
