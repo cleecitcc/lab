@@ -2,4 +2,4 @@
   hosts: '{{ hostz }}'
   tasks:
     - name: Ping
-      action: ping
+      shell: ping
