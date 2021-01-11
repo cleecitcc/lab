@@ -1,5 +1,5 @@
 - name: Run the Job on Host
   hosts: '{{ hostz }}'
   tasks:
-    - name: Ping
-      shell: ping
+    - name: Ping DNS
+      shell: ping 8.8.8.8
