@@ -3,6 +3,5 @@
   hosts: all
   tasks:
     - name: Ping HOSTz
-      shell: ping -c 1 '{{ hostz }}'
+      shell: ping -c 1
       delegate_to: localhost
-      
