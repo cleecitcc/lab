@@ -3,4 +3,4 @@
   hosts: '{{ hostz }}'
   tasks:
     -name: Ping Internet
-     shell: ping -4 -c 1 8.8.8.8
+     shell: ping 8.8.8.8
