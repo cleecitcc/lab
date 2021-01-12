@@ -3,5 +3,5 @@
   hosts: localhost
   tasks:
     - name: Ping HOSTz
-      shell: ping -c 1 '{{ apple_inv1}}'
+      shell: ping -c 1
       delegate_to: localhost
