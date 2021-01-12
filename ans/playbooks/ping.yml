@@ -6,5 +6,4 @@
       shell: /bin/ping -c 1 8.8.8.8
     - name: Ping Time IP
       shell:
-        cmd: /bin/ping
-        dest: '8.8.4.4'
+        cmd: /bin/ping -c 1 8.8.4.4
