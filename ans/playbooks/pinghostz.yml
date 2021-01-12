@@ -1,7 +1,7 @@
 ---
 - name: Running Job from Tower using delegate_to
-  hosts: all
+  hosts: localhost
   tasks:
     - name: Ping HOSTz
-      shell: ping -c 1
+      shell: ping -c 1 '{{ apple_inv1}}'
       delegate_to: localhost
