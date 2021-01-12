@@ -1,0 +1,8 @@
+---
+- name: Running Job on Host
+  hosts: '{{ hostz }}'
+  tasks:
+    - name: Ping HOSTz
+      shell: ping -c 1 '{{ hostz }}'
+      delegate_to: localhost
+      
