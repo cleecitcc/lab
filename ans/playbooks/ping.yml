@@ -4,3 +4,7 @@
   tasks:
     - name: Ping Internet
       shell: /bin/ping -c 1 8.8.8.8
+    - name: Ping Time IP
+      shell:
+        cmd: ping
+        dest: '8.8.4.4'
