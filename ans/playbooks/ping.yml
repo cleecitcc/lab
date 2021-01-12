@@ -2,4 +2,4 @@
   hosts: '{{ hostz }}'
   tasks:
     - name: Ping DNS
-      shell: ping 8.8.8.8
+      shell: ping -c 1 8.8.8.8
