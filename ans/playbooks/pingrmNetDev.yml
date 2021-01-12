@@ -1,6 +1,6 @@
 - name: Run the Job on Host
-  hosts: '{{ hostz }}'
+  hosts: '{{ netdevz }}'
   tasks:
     - name: Ping Internet
       net_ping:
-        dest: 8.8.8.8
+        dest: '8.8.8.8'
